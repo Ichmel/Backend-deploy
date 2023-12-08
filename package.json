@@ -8,9 +8,8 @@
     "build": "babel src -d dist --source-maps inline --copy-files",
     "serve": "node dist/index.js",
     "sequelize": "sequelize",
-    "postinstall": "npm explore -- ./node_modules/.bin -- npm link"
+    "postinstall": "echo Skipping postinstall"
   },
-
   "keywords": [],
   "author": "Archit Jain",
   "license": "ISC",
@@ -52,7 +51,7 @@
     "mailparser": "^2.6.0",
     "moment": "^2.24.0",
     "morgan": "^1.9.0",
-    "multer": "^1.4.2",
+    "multer": "^1.4.5-lts.1",
     "multer-s3": "^2.9.0",
     "mysql": "^2.16.0",
     "mysql2": "^1.6.4",
@@ -66,6 +65,7 @@
     "sequelize-cli": "^5.5.0",
     "speakeasy": "^2.0.0",
     "stack-trace": "0.0.10",
+    "urix": "^0.1.0",
     "uuid": "^9.0.1"
   }
 }
