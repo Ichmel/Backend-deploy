@@ -59,5 +59,5 @@ db.sequelize
 
 /* Start Listening service */
 app.listen(PORT, () => {
-	console.log(`Server is running at PORT http://35.180.92.225:${PORT}`);
+	console.log(`Server is running at PORT http://localhost:${PORT}`);
 });
